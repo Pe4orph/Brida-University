@@ -1,0 +1,79 @@
+/* Resets */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* Common */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+img,
+svg {
+	max-width: 100%;
+	height: auto;
+}
+
+/* Form */
+
+input,
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	background-color: transparent;
+	-webkit-tap-highlight-color: transparent;
+}
+
+label,
+button,
+input[type='submit'] {
+	cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+	outline: none;
+}
